@@ -141,6 +141,8 @@ Thanks to Zhang Tong and Kfir Ozer for finding this.
 
 See `UEFI/README.md` for GPU passthrough notes.
 
+Note: There is no working QXL driver for macOS so far.
+
 ### Virtual Sound Device
 
 No support is provided for this. You are on your own. The sound output is known
@@ -152,6 +154,8 @@ to be choppy and distorted.
 * To get sound on your virtual Mac, install the VoodooHDA driver from
   [here](https://sourceforge.net/projects/voodoohda/files/).
 
+Note: It seems that playback of Flash videos requires an audio device to be
+present.
 
 ### Building QEMU from source
 
